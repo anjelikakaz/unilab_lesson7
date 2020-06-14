@@ -1,0 +1,32 @@
+body, html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	padding: 2%;
+}
+.box{
+	background-color: #ffb3b3;
+	height: 100%;
+	position: relative;
+}
+.second-box{
+	position: absolute;
+	animation: mymoves 8s infinite;
+}
+.pic{
+	width: 450px;
+	height: 400px;
+}
+.second-pic{
+	width: 320px;
+	height: 400px;
+	float: right;
+}
+ @keyframes mymoves{
+  0%   {top: 0px; left: 0px;}
+  25%  {top: 0px; left: 600px;}
+  50%  {top: 200px; left: 600px;}
+  75%  {top: 200px; left: 0px;}
+  100% {top: 0px; left: 0px;}
+}
